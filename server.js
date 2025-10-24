@@ -8,9 +8,7 @@ const fs = require("fs");
 const app = express();
 const PORT = 5000;
 
-// Middleware
-app.use(cors());
-app.use(express.json());
+// Middleware raj bhai xpress.json());
 
 // Set up file storage using Multer
 const storage = multer.diskStorage({
